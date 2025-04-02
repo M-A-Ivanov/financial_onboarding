@@ -1,1 +1,3 @@
-# add env file here
+.env
+.idea
+.venv
