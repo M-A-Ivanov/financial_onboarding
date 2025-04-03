@@ -120,14 +120,10 @@ python main.py
 python main.py --conversations 3 --pdf-name "Custom_Template.pdf" --experiment "test_run_1"
 ```
 
-**Create only a template from a PDF:**
+**Run full pipeline:**
 ```bash
-python main.py --create-template --pdf-name "New_Form.pdf"
-```
+python main.py --create-template --setup-schema --conversations 1
 
-**Generate schema from existing template:**
-```bash
-python main.py --setup-schema
 ```
 
 **Run only the conversation pipeline (using existing template and schema):**
